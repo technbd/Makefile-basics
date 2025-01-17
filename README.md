@@ -1,5 +1,7 @@
 ## Makefile:
 
+A `Makefile` is a special file used by the make build automation tool to manage the build process of a project. It defines rules, dependencies, and commands to compile or generate targets such as executables, object files, or any other output needed for your project.
+
 
 ```
 apt install make
@@ -92,6 +94,8 @@ make clean
 Variables can only be strings. You'll typically want to use `:=`, but `=` also works. 
 
 - The `=` or `:=` is used for simple variable assignment.
+	- Recursive assignment: `VAR = value` (evaluated when used)
+	- Immediate assignment: `VAR := value` (evaluated when defined)
 - The` @` symbol before the echoing of the command itself, only printing the result of the command execution.
 
 
