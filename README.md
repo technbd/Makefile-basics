@@ -64,8 +64,10 @@ If you want **to make multiple target and run all of them**, you can simply make
 #### Example-1:
 
 ```
+# Aggregate target to run all:
 all: one two three
 
+## Individual targets:
 one: 
 	@touch one.txt
 
